@@ -9,14 +9,15 @@ To pass this project, your code must:
 ### Getting Started
 This project is fairly open-ended. As long as you follow the prescribed steps, you may choose any appropriate PEFT technique, model, evaluation approach, and fine-tuning dataset.
 
-PEFT technique
-The PEFT technique covered in this course was LoRA, but new techniques are continuously being developed. See the PEFT README for links to the papers behind each of the supported techniques.
-If you are unsure, we recommend using LoRA as your PEFT technique. LoRA is the only PEFT technique that is compatible with all models at this time.
-Model
-Your choice of model will depend on your choice of PEFT technique.
-Unless you plan to use your own hardware/GPU rather than the Udacity Workspace, it's best to choose a smaller model.
-The model must be compatible with a sequence classification task.
-If you are unsure, we recommend using GPT-2 as your model. This is a relatively small model that is compatible with sequence classification and LoRA.
++ PEFT technique
+  - The PEFT technique covered in this course was LoRA, but new techniques are continuously being developed. See the PEFT README for links to the papers behind each of the supported techniques.
+  - If you are unsure, we recommend using LoRA as your PEFT technique. LoRA is the only PEFT technique that is compatible with all models at this time.
++ Model
+  - Your choice of model will depend on your choice of PEFT technique.
+  - Unless you plan to use your own hardware/GPU rather than the Udacity Workspace, it's best to choose a smaller model.
+  - The model must be compatible with a sequence classification task.
+  - If you are unsure, we recommend using GPT-2 as your model. This is a relatively small model that is compatible with sequence classification and LoRA.
+
 For a high-level overview of the supported models and PEFT techniques for each task, refer to the PEFT README - model support matrix. For specific model names in the Hugging Face registry, you can use the widget at the bottom of the PEFT documentation homepage (select "sequence classification" from the drop-down).
 
 Evaluation approach
