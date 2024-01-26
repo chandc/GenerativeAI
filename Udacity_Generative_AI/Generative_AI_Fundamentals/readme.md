@@ -2,11 +2,11 @@
 ### Project Instructions
 To pass this project, your code must:
 
-Load a pre-trained model and evaluate its performance
-Perform parameter-efficient fine-tuning using the pre-trained model
-Perform inference using the fine-tuned model and compare its performance to the original model
++ Load a pre-trained model and evaluate its performance
++ Perform parameter-efficient fine-tuning using the pre-trained model
++ Perform inference using the fine-tuned model and compare its performance to the original model
 
-###Getting Started
+### Getting Started
 This project is fairly open-ended. As long as you follow the prescribed steps, you may choose any appropriate PEFT technique, model, evaluation approach, and fine-tuning dataset.
 
 PEFT technique
