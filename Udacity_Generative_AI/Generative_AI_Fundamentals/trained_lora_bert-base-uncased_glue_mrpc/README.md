@@ -1,6 +1,6 @@
 ---
 library_name: peft
-base_model: Intel/bert-base-uncased-mrpc
+base_model: bert-base-uncased
 ---
 
 # Model Card for Model ID
