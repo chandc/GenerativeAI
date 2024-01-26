@@ -21,7 +21,7 @@ This project is fairly open-ended. As long as you follow the prescribed steps, y
 For a high-level overview of the supported models and PEFT techniques for each task, refer to the PEFT README - model support matrix. For specific model names in the Hugging Face registry, you can use the widget at the bottom of the PEFT documentation homepage (select "sequence classification" from the drop-down).
 
 + Evaluation approach
-  - The evaluation approach covered in this course was the evaluate method with a Hugging Face Trainer. You may use the same approach, or any other reasonable evaluation approach for a sequence classification task
+  - The evaluation approach covered in this course was the ```evaluate``` method with a Hugging Face Trainer. You may use the same approach, or any other reasonable evaluation approach for a sequence classification task
   - The key requirement for the evaluation is that you must be able to compare the original foundation model's performance and the fine-tuned model's performance.
 + Dataset
   - Your PEFT process must use a dataset from Hugging Face's datasets library. As with the selection of model, you will need to ensure that the dataset is small enough that it is usable in the Udacity Workspace.
