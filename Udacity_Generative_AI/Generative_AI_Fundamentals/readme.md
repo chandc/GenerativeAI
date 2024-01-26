@@ -45,7 +45,7 @@ Using the PEFT config and foundation model, create a PEFT model.
 Using the PEFT model and dataset, run a training loop with at least one epoch.
 
 ### Saving the trained model
-Depending on your training loop configuration, your PEFT model may have already been saved. If not, use >save_pretrained to save your progress.
+Depending on your training loop configuration, your PEFT model may have already been saved. If not, use *save_pretrained* to save your progress.
 
 ## Performing Inference with a PEFT Model
 ### Loading the model
