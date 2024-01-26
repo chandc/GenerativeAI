@@ -18,14 +18,14 @@ This project is fairly open-ended. As long as you follow the prescribed steps, y
   - The model must be compatible with a sequence classification task.
   - If you are unsure, we recommend using GPT-2 as your model. This is a relatively small model that is compatible with sequence classification and LoRA.
 
-For a high-level overview of the supported models and PEFT techniques for each task, refer to the PEFT README - model support matrix. For specific model names in the Hugging Face registry, you can use the widget at the bottom of the PEFT documentation homepage (select "sequence classification" from the drop-down).
+For a high-level overview of the supported models and PEFT techniques for each task, refer to the [PEFT README - model support matrix](https://github.com/huggingface/peft?tab=readme-ov-file#models-support-matrix). For specific model names in the Hugging Face registry, you can use the widget at the bottom of the [PEFT documentation homepage](https://huggingface.co/docs/peft/index) (select "sequence classification" from the drop-down).
 
 + Evaluation approach
   - The evaluation approach covered in this course was the *evaluate* method with a Hugging Face *Trainer*. You may use the same approach, or any other reasonable evaluation approach for a sequence classification task
   - The key requirement for the evaluation is that you must be able to compare the original foundation model's performance and the fine-tuned model's performance.
 + Dataset
   - Your PEFT process must use a dataset from Hugging Face's *datasets* library. As with the selection of model, you will need to ensure that the dataset is small enough that it is usable in the Udacity Workspace.
-  - The key requirement for the dataset is that it matches the task. Follow this link to view Hugging Face datasets filtered by the text classification task
+  - The key requirement for the dataset is that it matches the task. Follow this link to [view Hugging Face datasets filtered by the text classification task](https://huggingface.co/datasets?task_categories=task_categories:text-classification)
 
 ## Loading and Evaluating a Foundation Model
 ### Loading the model
