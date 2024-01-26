@@ -10,7 +10,7 @@ To pass this project, your code must:
 This project is fairly open-ended. As long as you follow the prescribed steps, you may choose any appropriate PEFT technique, model, evaluation approach, and fine-tuning dataset.
 
 + PEFT technique
-  - The PEFT technique covered in this course was LoRA, but new techniques are continuously being developed. See the PEFT README for links to the papers behind each of the supported techniques.
+  - The PEFT technique covered in this course was LoRA, but new techniques are continuously being developed. See the [PEFT README](https://github.com/huggingface/peft) for links to the papers behind each of the supported techniques.
   - If you are unsure, we recommend using LoRA as your PEFT technique. LoRA is the only PEFT technique that is compatible with all models at this time.
 + Model
   - Your choice of model will depend on your choice of PEFT technique.
