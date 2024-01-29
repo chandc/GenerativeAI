@@ -24,10 +24,10 @@ Once you've met all of the rubric requirements, you can submit your project usin
 From the workspace using the *SUBMIT PROJECT* button on the workspace page
 As a zip file or a Github repository using the *SUBMIT PROJECT* button on the project submission page
 
-```
+
 ⚠️ Important
 Before you sumbit your project, *remove your OpenAI API key* and replace it with `"YOUR API KEY"`. Your reviewer will have their own API key to use when testing your project.
-```
+
 Local Machine Instructions
 A Udacity workspace with all necessary dependencies is available under "Jupyter Workspace - Project". If you would prefer to work on your local computer, you will need:
 
